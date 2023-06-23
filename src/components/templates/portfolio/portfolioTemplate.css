@@ -1,0 +1,11 @@
+:root{
+    --surf: rgba(157,214,225,1);
+    --storm: rgba(79,102,106,1);
+    --oyster: rgba(225,218,199);
+    --lake: rgba(75,182,239,1);
+}
+
+.page_wrapper {
+  background-color: var(--lake);
+  display: flex;
+}

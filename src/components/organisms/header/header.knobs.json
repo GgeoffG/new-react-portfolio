@@ -1,0 +1,21 @@
+{
+  "menus": {
+    "label": "Menus",
+    "default": [
+      {
+        "items": [
+          { "title": "Home", "url": "/home" },
+          { "title": "About", "url": "/about" },
+          { "title": "Projects", "url": "/projects" },
+          { "title": "Contacts", "url": "/contacts" }
+        ]
+      }
+    ],
+    "group": "content"
+  },
+  "logo": {
+    "label": "Logo",
+    "default": "logo",
+    "group": "content"
+  }
+}

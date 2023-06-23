@@ -1,0 +1,28 @@
+:root{
+  --tertiary: rgba(49, 52, 61, 1);
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(238, 238, 247, 1);
+  --surf: rgba(157,214,225,1);
+  --lake: rgba(75,182,239,1);
+  --storm: rgba(79,102,106,1);
+  --copen: rgba(33,99,136,1);
+  --oyster: rgba(225,218,199);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--copen);
+  color: var(--light)
+}
+footer a{
+  color: var(--light)
+}
+footer a:hover{
+  color:var(--lake)
+}
+.copyright{
+
+  
+}
