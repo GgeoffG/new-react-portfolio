@@ -6,8 +6,8 @@ const NavBar = ({ direction, items, location, ...props }) => (
     className={["navbar", `navbar--${location}`, `navbar--${direction}`].join(
       " "
     )}
-    {...props}
   >
+    {console.log(props.items)}
     {items.map((item) => (
       <a href={item.url}>{item.title}</a>
     ))}

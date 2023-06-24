@@ -4,18 +4,14 @@ import NavBar from "../../molecules/navBar/navBar";
 import "./header.css";
 import logoGL from "../../../Assets/logo.svg";
 const logo = logoGL;
-const items = [
-  { title: "Home", url: "/home" },
-  { title: "About", url: "/about" },
-  { title: "Projects", url: "/projects" },
-  { title: "Contacts", url: "/contacts" },
-];
-const Header = ({ menus }) => (
+const items = [];
+const Header = ({ ...props }) => (
   <section className="header_wrapper">
     <header>
       <img src={logoGL} style={{ height: 75, width: 100 }} alt="My Logo" />
-      {menus.map(({ items, title }) => (
-        <NavBar location="header" items={items} />
+      {console.log(props.menus)}
+      {props.menus.map(({ items }) => (
+        <NavBar location={props.location} items={items} />
       ))}
     </header>
   </section>
