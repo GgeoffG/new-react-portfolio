@@ -1,17 +1,17 @@
 import React from "react";
-import { func, string, arrayOf, shape } from "prop-types";
+import { func, string, arrayOf, shape, number } from "prop-types";
 import NavBar from "../../molecules/navBar/navBar";
 import "./header.css";
 import logoGL from "../../../Assets/logo.svg";
 const logo = logoGL;
-const items = [];
+
 const Header = ({ ...props }) => (
   <section className="header_wrapper">
     <header>
       <img src={logoGL} style={{ height: 75, width: 100 }} alt="My Logo" />
       {console.log(props.menus)}
-      {props.menus.map(({ items }) => (
-        <NavBar location={props.location} items={items} />
+      {props.menus.map(({ items, index }) => (
+        <NavBar key={index} location={props.location} items={items} />
       ))}
     </header>
   </section>
@@ -28,6 +28,7 @@ Header.propTypes = {
   }),
   logo: string,
   title: string,
+  key: number,
 };
 
 Header.defaultProps = {

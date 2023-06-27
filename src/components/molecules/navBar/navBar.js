@@ -1,14 +1,16 @@
 import React from "react";
 import { func, string, arrayOf, shape } from "prop-types";
 import "./navBar.css";
-const NavBar = ({ direction, items, location, ...props }) => (
+const NavBar = ({ direction, ...props }) => (
   <nav
-    className={["navbar", `navbar--${location}`, `navbar--${direction}`].join(
-      " "
-    )}
+    className={[
+      "navbar",
+      `navbar--${props.location}`,
+      `navbar--${direction}`,
+    ].join(" ")}
   >
-    {console.log(props.items)}
-    {items.map((item) => (
+    {console.log(props.location)}
+    {props.items.map((item) => (
       <a href={item.url}>{item.title}</a>
     ))}
   </nav>

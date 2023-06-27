@@ -4,11 +4,11 @@ import Input from "../../atoms/input/input";
 import "bootstrap/dist/css/bootstrap.css";
 import "./inputForm.css";
 
-const InputForm = ({ fields }) => {
+const InputForm = ({ ...props }) => {
   return (
-    <>
-      {console.log({ fields })}
-      {fields.map((data, index) => (
+    <div className="form-wrapper">
+      <h2>{props.inputTitle}</h2>
+      {props.fields.map((data, index) => (
         <Input
           key={index}
           type={data.type}
@@ -18,7 +18,7 @@ const InputForm = ({ fields }) => {
         />
       ))}
       <button className="button-primary">Submit</button>
-    </>
+    </div>
   );
 };
 

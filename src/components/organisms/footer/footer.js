@@ -4,10 +4,10 @@ import NavBar from "../../molecules/navBar/navBar";
 import "./footer.css";
 import github from "../../../Assets/github-mark.png";
 
-const Footer = ({ menus }) => (
+const Footer = ({ ...props }) => (
   <section className="footer_wrapper">
     <footer>
-      {menus.map(({ items, title }) => (
+      {props.menus.map(({ items, title }) => (
         <>
           {title && <h3 className="footer_title">{title}</h3>}
           <NavBar location="footer" items={items} />
