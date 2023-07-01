@@ -5,6 +5,7 @@ const listItems = [
   { innerText: "Javascript" },
   { innerText: "React" },
   { innerText: "SQL and NoSQL" },
+  { innerText: "Mern Stack Applications" },
 ];
 
 export default listItems;

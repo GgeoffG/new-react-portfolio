@@ -25,10 +25,12 @@
         background-size: 150%;
         transition: all 0.5s;
         font-size: 0.9rem;
+        max-width: 50%;
       
 }
 
 .banner h4 {
+  display: flex;
     color: var(--dark);
     font-size: 4rem;
     background-repeat: no-repeat;
@@ -36,6 +38,7 @@
     background-size: 0;
     background-position: bottom;
     transition: all 0.25s ease-in;
+    flex-grow: 1;
 }
 
 .banner:hover h4{
@@ -46,12 +49,17 @@
     transition: all 0.25s ease-in;
 }
 
-.banner:first-child {
-    min-height: 400px;
+.main--true{
     flex-basis: 100%;
+  max-width: 100%;
 }
 
 .banner:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 800px) {
+  .banner h4{
+    font-size: 2rem;
+  }
+}

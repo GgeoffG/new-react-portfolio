@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./paragraph.css";
 
 const Paragraph = ({ innerText }, ...props) => {
-  return <p>{innerText}</p>;
+  return <p className="paragraph">{innerText}</p>;
 };
 
 Paragraph.propTypes = {

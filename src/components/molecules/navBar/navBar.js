@@ -1,7 +1,7 @@
 import React from "react";
 import { func, string, arrayOf, shape } from "prop-types";
 import "./navBar.css";
-const NavBar = ({ direction, ...props }) => (
+const NavBar = ({ direction, handleDisplayChange, display, ...props }) => (
   <nav
     className={[
       "navbar",
@@ -11,7 +11,9 @@ const NavBar = ({ direction, ...props }) => (
   >
     {console.log(props.location)}
     {props.items.map((item) => (
-      <a href={item.url}>{item.title}</a>
+      <a href={item.url} onClick={() => display(item.url)}>
+        {item.title}
+      </a>
     ))}
   </nav>
 );

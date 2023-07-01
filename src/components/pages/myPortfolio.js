@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import { func, string, arrayOf, shape } from "prop-types";
-import "./myPortfolio.css";
-import Header from "../../organisms/header/header";
-import Footer from "../../organisms/footer/footer";
-import WorkDisplay from "../../organisms/workDisplay/workDisplay";
+import PortfolioTemplate from "../templates/portfolio/portfolioTemplate";
+
+const MyPortfolio = () => {
+  const [currentDisplay, setCurrentDisplay] = useState("#home");
+  let show = currentDisplay;
+  const handleDisplayChange = (display) => setCurrentDisplay(display);
+  return (
+    <PortfolioTemplate
+      show={show}
+      display={handleDisplayChange}
+    ></PortfolioTemplate>
+  );
+};
+export default MyPortfolio;

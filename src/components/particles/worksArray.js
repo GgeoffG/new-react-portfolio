@@ -30,6 +30,13 @@ const worksArray = [
         link: "https://ggeoffg.github.io/challenge-1/",
         name: "Project 3",
       },
+      {
+        image:
+          "https://media.istockphoto.com/id/1452662336/photo/the-announcement-message-coming-soon-written-with-a-vintage-typewriter.webp?b=1&s=170667a&w=0&k=20&c=SSRSkOtvgALemowpyIuM6ArBor74gYnFPt6Xt-9gjEo=",
+        main: false,
+        link: "https://ggeoffg.github.io/challenge-1/",
+        name: "Project 3",
+      },
     ],
   },
 ];

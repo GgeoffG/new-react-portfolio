@@ -6,6 +6,16 @@
 }
 
 .page_wrapper {
-  background-color: var(--lake);
+  background-color: var(--oyster);
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 10px;
+  padding: 10px
+}
+
+.content-wrapper {
+  background-color: var(--lake);
+ padding: 5px
 }

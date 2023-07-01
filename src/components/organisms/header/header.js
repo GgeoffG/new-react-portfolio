@@ -5,13 +5,18 @@ import "./header.css";
 import logoGL from "../../../Assets/logo.svg";
 const logo = logoGL;
 
-const Header = ({ ...props }) => (
+const Header = ({ display, ...props }) => (
   <section className="header_wrapper">
     <header>
       <img src={logoGL} style={{ height: 75, width: 100 }} alt="My Logo" />
       {console.log(props.menus)}
       {props.menus.map(({ items, index }) => (
-        <NavBar key={index} location={props.location} items={items} />
+        <NavBar
+          key={index}
+          location={props.location}
+          items={items}
+          display={display}
+        />
       ))}
     </header>
   </section>

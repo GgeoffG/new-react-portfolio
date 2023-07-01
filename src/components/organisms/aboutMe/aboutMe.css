@@ -8,3 +8,21 @@
   --copen: rgba(33,99,136,1);
   --oyster: rgba(225,218,199);
 }
+
+.aboutMe_wrapper {
+  background-color: var(--copen);
+  ;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: column;
+  /* margin:2vw; */
+  padding: 2vw;
+}
+
+.paragraph {
+  background-color: var(--copen);
+  margin: 10px, 5px, 10px, 5px;
+  padding: 10px, 5px, 10px, 5px;
+  color: white
+}

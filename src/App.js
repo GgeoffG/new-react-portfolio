@@ -1,8 +1,7 @@
 import "./App.css";
-import PortfolioTemplate from "./components/templates/portfolio/portfolioTemplate";
-
+import MyPortfolio from "./components/pages/myPortfolio";
 function App() {
-  return <PortfolioTemplate />;
+  return <MyPortfolio />;
 }
 
 export default App;
