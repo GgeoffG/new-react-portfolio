@@ -9,7 +9,7 @@ const Header = ({ display, ...props }) => (
   <section className="header_wrapper">
     <header>
       <img src={logoGL} style={{ height: 75, width: 100 }} alt="My Logo" />
-      {console.log(props.menus)}
+      <h1>Geoffrey Langeberg</h1>
       {props.menus.map(({ items, index }) => (
         <NavBar
           key={index}
