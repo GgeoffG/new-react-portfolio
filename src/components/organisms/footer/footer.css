@@ -16,13 +16,28 @@ footer {
   background-color: var(--copen);
   color: var(--light)
 }
-footer a{
-  color: var(--light)
-}
-footer a:hover{
-  color:var(--lake)
-}
-.copyright{
 
+
+.copyright{
+display: flex;
   
+}
+
+.gitMark {
+  background-color: white;
+  opacity: 50%;
+  margin: 4px;
+}
+.linkMark {
+  margin: 4px;
+  background-color: white;
+  opacity: 50%;
+}
+
+.gitMark:hover{
+  opacity: 100%;
+}
+
+.linkMark:hover{
+  opacity: 100%;
 }

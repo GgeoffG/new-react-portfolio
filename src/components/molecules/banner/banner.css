@@ -26,6 +26,7 @@
         transition: all 0.5s;
         font-size: 0.9rem;
         max-width: 50%;
+        justify-content: space-between;
       
 }
 
@@ -48,7 +49,6 @@
     background-position: bottom;
     transition: all 0.25s ease-in;
 }
-
 .main--true{
     flex-basis: 100%;
   max-width: 100%;
@@ -57,9 +57,24 @@
 .banner:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+.git-link {
+  background-color: white;
+  transition: all 0.25s ease-in;
+  opacity: 50%;
+  width: 6vw;
+}
+.git-link:hover {
+  background-color: white;
+  transition: all 0.25s ease-in;
+  opacity: 100%;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .banner h4{
-    font-size: 2rem;
+    font-size: 6vw;
   }
+  .main--true{
+    flex-basis: 100%;
+  max-width: 50%;
+}
 }

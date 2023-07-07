@@ -36,7 +36,7 @@ const PortfolioTemplate = ({ display, show }) => (
         "error"
       )}
     </div>
-    <Footer menus={menu} location="footer" />
+    <Footer menus={menu} location="footer" display={display} />
   </div>
 );
 // PortfolioTemplate.propTypes = {};

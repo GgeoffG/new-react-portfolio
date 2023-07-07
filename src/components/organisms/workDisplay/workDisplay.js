@@ -8,13 +8,14 @@ const WorkDisplay = ({ ...props }) => (
     <div className="works_div">
       {console.log("works:" + props.works)}
       {props.works.map(({ items }) =>
-        items.map(({ image, main, link, name }) => (
+        items.map(({ image, main, link, name, githublink, index }) => (
           <Banner
-            key={name}
+            key={index}
             image={image}
             main={main}
             link={link}
             name={name}
+            githublink={githublink}
           />
         ))
       )}

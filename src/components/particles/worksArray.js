@@ -8,6 +8,7 @@ const worksArray = [
         main: true,
         link: "https://ggeoffg.github.io/challenge-1/",
         name: "Cooks Companion",
+        githublink: "https://github.com/andrewmuhn/cooks-companion",
       },
       {
         image:
@@ -15,6 +16,7 @@ const worksArray = [
         main: false,
         link: "https://ggeoffg.github.io/challenge-1/",
         name: "Refactor",
+        githublink: "https://github.com/GgeoffG/challenge-1",
       },
       {
         image:
@@ -22,6 +24,7 @@ const worksArray = [
         main: false,
         link: "https://ggeoffg.github.io/challenge-1/",
         name: "Tech Blog",
+        githublink: "https://github.com/GgeoffG/tech_blog",
       },
       {
         image:
@@ -29,6 +32,7 @@ const worksArray = [
         main: false,
         link: "https://ggeoffg.github.io/challenge-1/",
         name: "Project 3",
+        githublink: "https://github.com/sethleininger/dopamine-box",
       },
       {
         image:

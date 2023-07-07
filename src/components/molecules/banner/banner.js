@@ -2,7 +2,8 @@ import React from "react";
 import { func, string, arrayOf, shape, bool } from "prop-types";
 import "./banner.css";
 import cooksCompanionImage from "../../../Assets/cooks_companion.png";
-const Banner = ({ image, main, link, name }) => (
+import github from "../../../Assets/github-mark.png";
+const Banner = ({ image, main, link, name, githublink }) => (
   <div
     className={["banner", `main--${main}`].join(" ")}
     style={{
@@ -14,6 +15,9 @@ const Banner = ({ image, main, link, name }) => (
   >
     <a href={link}>
       <h4>{name}</h4>
+    </a>
+    <a href={githublink}>
+      <img src={github} alt="github mark" className="git-link"></img>
     </a>
   </div>
 );
