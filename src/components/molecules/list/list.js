@@ -4,11 +4,14 @@ import Input from "../../atoms/input/input";
 import "bootstrap/dist/css/bootstrap.css";
 import ListItem from "../../atoms/listItem/listItem";
 import "./list.css";
-
+import resume from "../../../Assets/Resume.pdf";
 const List = ({ ordered, listItems }) => {
   return (
     <div className="list-wrapper">
       <h3>Relevant Skills</h3>
+      <a href={resume} download>
+        Download Resume
+      </a>
       {!ordered ? (
         <ul>
           {listItems &&
