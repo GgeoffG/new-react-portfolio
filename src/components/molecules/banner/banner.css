@@ -69,6 +69,16 @@
   opacity: 100%;
 }
 
+@media (min-width:2000px) {
+  .git-link {
+    background-color: white;
+    transition: all 0.25s ease-in;
+    opacity: 50%;
+    width: 3vw;
+  }
+  }
+
+
 @media (max-width: 768px) {
   .banner h4{
     font-size: 6vw;
@@ -78,3 +88,4 @@
   max-width: 50%;
 }
 }
+

@@ -28,10 +28,10 @@ const worksArray = [
       },
       {
         image:
-          "https://media.istockphoto.com/id/1452662336/photo/the-announcement-message-coming-soon-written-with-a-vintage-typewriter.webp?b=1&s=170667a&w=0&k=20&c=SSRSkOtvgALemowpyIuM6ArBor74gYnFPt6Xt-9gjEo=",
+          "https://github.com/sethleininger/dopamine-box/blob/main/images/welcome.png?raw=true",
         main: false,
-        link: "https://ggeoffg.github.io/challenge-1/",
-        name: "Project 3",
+        link: "https://github.com/sethleininger/dopamine-box",
+        name: "Dopamine Box",
         githublink: "https://github.com/sethleininger/dopamine-box",
       },
       {

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://GgeoffG.github.io/new-react-portfolio",
   "name": "new-react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -55,6 +58,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.12",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.23",
     "webpack": "^5.88.0"
