@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+#Portfolio: Geoffrey Langenberg
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <!-- TABLE OF CONTENTS -->
+  <details>
+    <summary>Table of Contents</summary>
+    <ol>
+      <li>
+        <a href="#about-the-project">About The Project</a>
+        <ul>
+          <li><a href="#Project Image">Project Images</a></li>
+          <li><a href="#built-with">Built With</a></li>
+        </ul>
+      </li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#acknowledgments">Acknowledgments</a></li>
+    </ol>
+  </details>
+  
+  
+  
+  <!-- ABOUT THE PROJECT -->
+  ## About The Project
+  ### Project Image  
+  ![product-screenshot](https://github.com/GgeoffG/new-react-portfolio/blob/main/images/Portfolio.png)<br>
+  This Project is to serve as a portfolio for my website development.
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  
+  ### Built With
+  -React <br>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  
+  <!-- GETTING STARTED -->
+  
+  
+  
+  
+  <!-- USAGE EXAMPLES -->
+  ## Usage <br>
+  Use the navigation bar to explore my projects, about me, resume, and contact page.
+  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  
+  <!-- ROADMAP -->
+  ## Roadmap
+  Lookout for new projects to be added and improvements to the ui of this portfolio! <br> 
+  See the [open issues](https://github.com/GgeoffG/new-react-portfolio/issues) for a full list of proposed features (and known issues).
+  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  
+  <!-- CONTRIBUTING -->
+  ## Contributing
+  This project is not accepting contributions
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  
+  <!-- LICENSE -->
+   ## License <br>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  www.github.com/GgeoffG/new-react-portfolio/blob/main/LICENSE
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Available Scripts
+  <!-- CONTACT -->
 
-In the project directory, you can run:
+## Contact
 
-### `npm start`
+Geoffrey Langenberg - [@GeoffLangWrites] (https://twitter.com/GeoffLangWrites) - Geoffrey.langenberg@gmail.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project Link: [https://github.com/GgeoffG/new-react-portfolio](https://github.com/GgeoffG/new-react-portfolio)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
+  <!-- ACKNOWLEDGMENTS -->
+  ## Acknowledgments
+Built using Atomic Design Principles from [Brad Frost](https://bradfrost.com/)
