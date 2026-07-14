@@ -34,7 +34,7 @@ export const certifications = [
     name: "CompTIA CySA+ ce",
     issuer: "CompTIA",
     meta: "Certified Apr 2026 · Expires Apr 2029",
-    image: "",
+    image: "comptia-cysa-ce-certification.png",
   },
   {
     abbr: "PVE",
@@ -55,21 +55,23 @@ export const certifications = [
     name: "CompTIA IT Operations Specialist (CIOS)",
     issuer: "CompTIA · Stackable: A+ | Network+",
     meta: "May 2025",
-    image: "",
+    image: "comptia-it-operations-specialist-cios-stackable-certification.png",
   },
   {
     abbr: "CSIS",
     name: "CompTIA Secure Infrastructure Specialist (CSIS)",
     issuer: "CompTIA · Stackable: A+ | Network+ | Security+",
     meta: "Dec 2025",
-    image: "",
+    image:
+      "comptia-secure-infrastructure-specialist-csis-stackable-certification.png",
   },
   {
     abbr: "CSAP",
     name: "CompTIA Security Analytics Professional (CSAP)",
     issuer: "CompTIA · Stackable: Security+ | CySA+",
     meta: "Apr 2026",
-    image: "",
+    image:
+      "comptia-security-analytics-professional-csap-stackable-certification.png",
   },
 ];
 
