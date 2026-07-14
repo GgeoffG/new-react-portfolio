@@ -1,0 +1,190 @@
+:root {
+  --tertiary: rgba(49, 52, 61, 1);
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(238, 238, 247, 1);
+  --surf: rgba(157, 214, 225, 1);
+  --lake: rgba(75, 182, 239, 1);
+  --storm: rgba(79, 102, 106, 1);
+  --copen: rgba(33, 99, 136, 1);
+  --oyster: rgba(225, 218, 199);
+}
+
+.resume_wrapper {
+  background-color: var(--copen);
+  color: var(--light);
+  padding: 2vw 3vw;
+}
+
+.resume_header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-bottom: 4px solid var(--storm);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.resume_header h3 {
+  margin: 0;
+}
+
+.resume_download {
+  display: inline-block;
+  background-color: var(--oyster);
+  color: var(--dark);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.resume_download:hover,
+.resume_download:focus {
+  background-color: var(--surf);
+  color: var(--dark);
+}
+
+.resume_sectionTitle {
+  margin: 28px 0 14px;
+  padding-left: 12px;
+  border-left: 4px solid var(--storm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+}
+
+/* ---- certification badges ---- */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.cert-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--tertiary);
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.cert-badge_img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex: none;
+}
+
+.cert-badge_placeholder {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--storm);
+  color: var(--light);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-align: center;
+  padding: 4px;
+}
+
+.cert-badge_label {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.cert-badge_name {
+  font-weight: 600;
+  font-size: 0.86rem;
+  line-height: 1.25;
+}
+
+.cert-badge_meta {
+  font-size: 0.75rem;
+  color: var(--surf);
+  margin-top: 2px;
+}
+
+/* ---- experience ---- */
+.job {
+  background-color: var(--tertiary);
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.job_head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.job_role {
+  font-weight: 700;
+}
+
+.job_company {
+  color: var(--surf);
+}
+
+.job_meta {
+  font-size: 0.82rem;
+  color: var(--oyster);
+}
+
+.job_bullets {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.job_bullets li {
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+
+/* ---- skills ---- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.skills-col h5 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--surf);
+  border-bottom: 1px solid var(--storm);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+.skills-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-col li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .resume_wrapper {
+    padding: 16px;
+  }
+  .job_head {
+    flex-direction: column;
+  }
+}

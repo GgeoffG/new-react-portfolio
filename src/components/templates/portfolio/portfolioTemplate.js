@@ -7,19 +7,18 @@ import Footer from "../../organisms/footer/footer";
 import WorkDisplay from "../../organisms/workDisplay/workDisplay";
 import Input from "../../molecules/inputForm/inputForm";
 import AboutMe from "../../organisms/aboutMe/aboutMe";
-import List from "../../molecules/list/list";
+import Resume from "../../organisms/resume/resume";
 //import data for component population
 import aboutMeText from "../../particles/aboutMeText";
 import worksArray from "../../particles/worksArray";
 import navMenu from "../../particles/navMenu";
 import fieldsArray from "../../particles/fieldsArray";
-import listItems from "../../particles/listItems";
+import { certifications, skillGroups } from "../../particles/resumeData";
 
 const aboutMe = aboutMeText;
 const works = worksArray;
 const menu = navMenu;
 const fields = fieldsArray;
-const skills = listItems;
 const PortfolioTemplate = ({ display, show }) => (
   <div className="page_wrapper">
     <Header menus={menu} location="header" display={display} />
@@ -31,7 +30,7 @@ const PortfolioTemplate = ({ display, show }) => (
       ) : show === "#home" ? (
         <AboutMe innerText={aboutMe} />
       ) : show === "#resume" ? (
-        <List listItems={skills} />
+        <Resume certifications={certifications} skillGroups={skillGroups} />
       ) : (
         "error"
       )}
